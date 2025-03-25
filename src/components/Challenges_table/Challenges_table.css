@@ -1,0 +1,79 @@
+.table-container {
+    font-family: Arial, sans-serif;
+    color: #A3A3A3;
+  }
+  
+  .challenges-table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .challenges-table th, .challenges-table td {
+    padding: 1px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .challenges-table th {
+    background-color: #ffffff;
+    font-weight: bold;
+    color: #202020;
+  }
+  
+  .th-img {
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+  }
+  .challenge-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 2px;
+  }
+  
+  .active-status {
+    color: blue;
+    font-weight: bold;
+  }
+  
+  .inactive-status {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .challenge-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+  }
+  .table-row:nth-child(even) {
+    background-color: #ffffff;
+     
+  }
+  
+  .table-row:nth-child(odd) {
+    background-color: #f2f2f2; 
+  }
+  .pagination {
+    margin-top: 10px;
+    text-align: left;
+  }
+  
+  .page-btn {
+    padding: 5px 10px;
+    margin: 3px;
+    border: 1px solid #85C6E5;
+    background-color: white;
+    color: #85C6E5;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .page-btn.active {
+    background-color: #85C6E5;
+    color: white;
+  }
+  
+    

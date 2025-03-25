@@ -1,0 +1,54 @@
+.sidebar-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 230px; 
+    height: 86px;
+    padding: 2px;
+    background: white;
+    border-radius: 8px;
+    color: black;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.brand-name {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.dashboard-text {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.man-icon {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background-color: #eef7fa; 
+    padding: 5px;
+}
+
+.arrow-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    background: black;
+    border-radius: 50%;
+}
+
+.arrow-icon {
+    color: white;
+    font-size: 14px;
+}

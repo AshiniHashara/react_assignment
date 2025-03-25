@@ -1,0 +1,32 @@
+.notification-container{
+    width: 400px;
+    height: 450px;
+    border-radius: 20px;
+    border: 1px solid #F9F8F8;
+    color: black;
+}
+
+.custom-list {
+    list-style: none; 
+    padding: 0;
+    color: black;
+  }
+  
+  .custom-list li {
+    position: relative;
+    padding-left: 20px; 
+    font-size: 16px;
+  }
+  
+  .custom-list li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: #add8e6; 
+    transform: translateY(-50%);
+    border-radius: 3px; 
+  }
+  

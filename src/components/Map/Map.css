@@ -1,0 +1,122 @@
+.map-container {
+    width: 672px;
+    height: fit-content;
+    border: 1px solid #d9d9d9;
+    border-radius: 10px;
+    padding: 16px;
+    background-color: white;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .table-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .enlarge-icon-cover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  .enlarge-icon {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+  }
+  
+  .details-container {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .details {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .taj-logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .taj-detail {
+    margin-left: 10px;
+  }
+  
+  .taj-detail h5 {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .taj-date {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #666;
+  }
+  
+  .man-icon {
+    width: 20px;
+    height: 20px;
+    background-color: #eef7fa;
+    padding: 4px;
+    border-radius: 50%;
+  }
+  
+  .event-title {
+    font-size: 18px;
+    margin: 8px 0;
+    color: black;
+  }
+  
+  .event-description {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+  }
+  
+  .event-stats {
+    display: flex;
+    gap: 40px;
+    margin-top: 10px;
+  }
+  
+  .event-stat h3 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .event-stat p {
+    margin: 0;
+    font-size: 12px;
+    color: #666;
+  }
+   
+  .map-img {
+    width: 300px;
+    height: 220px;
+    border-radius: 10px;
+  }
+   .sub-title {
+    color: black;
+   }

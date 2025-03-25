@@ -1,0 +1,127 @@
+.ad-container {
+    width: 500px;
+    height: fit-content;
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  .header {
+    position: relative;
+    height: 30px;
+  }
+  
+  .sub-title {
+    color: #7d7d7d;
+    font-size: 14px;
+    margin-bottom: 4px;
+  }
+  
+  .title {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .enlarge-icon-cover {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  .enlarge-icon {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .content {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .left {
+    position: relative;
+    width: 50%;
+    background-color: #eef5ff;
+    padding: 10px;
+    height: 250px;
+    border-radius: 10px;
+  }
+  
+  .highlight-box {
+    background: white;
+    color: #007aff;
+    padding: 5px 10px;
+    border-radius: 6px;
+    font-size: 14px;
+    display: inline-block;
+  }
+  
+  .label {
+    font-size: 28px;
+    color: #7d7d7d;
+    margin-top: 15px;
+  }
+  
+  .percentage {
+    font-size: 35px;
+    font-weight: bold;
+    
+  }
+  
+  .phone-image {
+    width: 200px;
+    position: absolute;
+    bottom: -20px;
+    left: 123px;
+    transform: rotate(-10deg);
+  }
+  
+  .right {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .download-box {
+    padding: 5px;
+    border-radius: 10px;
+  }
+  
+  .google-play {
+    background: #f8f8f8;
+  }
+  
+  .google-play p, h2 {
+    color: black;
+    margin: 5px;
+  }
+  .apple-store {
+    width: 150px;
+    height: 120px;
+    background: black;
+    color: white;
+  }
+  
+  .apple-store h2 {
+    color: white;
+    margin: 5px;
+  }
+  .small-text {
+    font-size: 12px;
+    color: #a0a0a0;
+    margin-top: 4px;
+  }
+  
