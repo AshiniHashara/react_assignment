@@ -26,7 +26,7 @@ const Sidebar = () => {
   return (
     <div className="sidebar">
       <ul className="dashboard-items">
-        <li className="dashboard-item" onClick={()=> navigate("/dashboard")}>
+        <li className="dashboard-item" onClick={()=> navigate("/")}>
           <MdDashboard />
           <p>Dashboard</p>
         </li>
